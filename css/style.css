@@ -71,6 +71,10 @@ body {
   outline: none;
 }
 
+.text-input:focus {
+  border: 1px solid var(--purple);
+}
+
 .error {
   display: none;
   color: var(--lightred);
@@ -93,6 +97,10 @@ body {
   position: absolute;
   right: 3rem;
   top: 153px;
+}
+
+.button:hover {
+  background-color: var(--offblack);
 }
 
 .info-container {
