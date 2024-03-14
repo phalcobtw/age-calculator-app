@@ -38,7 +38,8 @@ button.addEventListener("click", function () {
     if (innerWidth >= 800) {
       button.style.top = "180px";
     } else if (innerWidth < 800 && innerHeight > 844) {
-      button.style.top = String(100 + innerHeight / 20) + "px";
+      button.style.top = String(100 + innerHeight / 17) + "px";
+      console.log(innerHeight);
     } else {
       button.style.top = String(100 + innerHeight / 8) + "px";
     }
@@ -54,7 +55,7 @@ button.addEventListener("click", function () {
     if (innerWidth >= 800) {
       button.style.top = "180px";
     } else if (innerWidth < 800 && innerHeight > 844) {
-      button.style.top = String(100 + innerHeight / 20) + "px";
+      button.style.top = String(100 + innerHeight / 17) + "px";
     } else {
       button.style.top = String(100 + innerHeight / 8) + "px";
     }
