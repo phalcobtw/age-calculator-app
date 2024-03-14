@@ -45,8 +45,7 @@ body {
 .input-container {
   font-size: 0.8em;
   display: flex;
-  /* gap: 1rem; */
-  justify-content: space-between;
+  gap: 0.6rem;
   border-bottom: 2px solid var(--offwhite);
 }
 
@@ -116,7 +115,7 @@ body {
 
 .info-item {
   display: flex;
-  font-size: 3.3em;
+  font-size: 3.1em;
   font-weight: 800;
   font-style: italic;
   line-height: 1.1;
@@ -126,7 +125,7 @@ body {
   color: var(--purple);
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 800px) {
   .calculator-container {
     width: 800px;
     padding: 3rem;
